@@ -1,6 +1,8 @@
 # ---- Keil MDK-ARM build output ----
 WIFI_LORA_RECV/MDK-ARM/Template/
 WIFI_LORA_RECV/MDK-ARM/DebugConfig/
+Terminal/MDK-ARM/Template/
+Terminal/MDK-ARM/DebugConfig/
 
 # ---- Object / listing / binary artifacts ----
 *.o
