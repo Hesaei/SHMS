@@ -1,0 +1,27 @@
+/*
+ * ============================================================================
+ * 文件名称：wifi_config.h.example
+ * 文件描述：Wi-Fi 热点配置模板
+ *
+ * 使用方法：
+ *   1. 将本文件复制为同目录下的 wifi_config.h
+ *   2. 在 wifi_config.h 中填入实际的 SSID 和密码
+ *
+ *   命令：cp wifi_config.h.example wifi_config.h
+ *
+ * 说明：
+ *   wifi_config.h 已被 .gitignore 忽略，不会提交到仓库。
+ *   请勿把真实凭据直接写进 esp.h 或其他会被跟踪的文件。
+ * ============================================================================
+ */
+
+#ifndef __WIFI_CONFIG_H__
+#define __WIFI_CONFIG_H__
+
+/* Wi-Fi 热点名称 */
+#define WIFI_SSID         "your_wifi_ssid"
+
+/* Wi-Fi 热点密码 */
+#define WIFI_PASSWORD     "your_wifi_password"
+
+#endif /* __WIFI_CONFIG_H__ */

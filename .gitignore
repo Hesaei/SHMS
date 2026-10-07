@@ -1,0 +1,36 @@
+# ---- Keil MDK-ARM build output ----
+WIFI_LORA_RECV/MDK-ARM/Template/
+WIFI_LORA_RECV/MDK-ARM/DebugConfig/
+
+# ---- Object / listing / binary artifacts ----
+*.o
+*.crf
+*.d
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.dep
+*.lnp
+*.sct
+*.lst
+*.Bak
+*.build_log.htm
+
+# ---- Keil per-user GUI layout settings ----
+*.uvguix.*
+
+# ---- Debugger / tool logs ----
+JLinkLog.txt
+
+# ---- 本地 Wi-Fi 凭据（请勿提交）----
+# 真实凭据写在这里，仓库中只保留 wifi_config.h.example 模板
+wifi_config.h
+
+# ---- Common build directories ----
+Debug/
+Release/
+Objects/
+Listings/
+build/
